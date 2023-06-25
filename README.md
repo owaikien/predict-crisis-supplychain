@@ -36,4 +36,5 @@ No disruption:
 ````
 
 <h2>High-Level Approach</h2>
-![highlevel](https://github.com/owaikien/predict-crisis-supplychain/assets/95358608/cbe27177-8ec0-4e81-a656-0054bf5b1ae9)
+
+![approach.png](https://github.com/owaikien/predict-crisis-supplychain/blob/b991c08d9254690f046ccaf1e20d6cb7ba08b15f/approach.png)
