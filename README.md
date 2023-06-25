@@ -61,6 +61,9 @@ potential_disruption       0.78      0.83      0.80      1649
            macro avg       0.81      0.80      0.80      4103
         weighted avg       0.81      0.80      0.80      4103
 ````
+
+[Model Building Source Code](https://github.com/owaikien/predict-crisis-supplychain/blob/main/spchain.ipynb)
+
 <h2>Model Testing</h2>
 
 I then tested the model on the [Turkey and Syria Earthquake Tweet dataset](https://www.kaggle.com/datasets/swaptr/turkey-earthquake-tweets), which is retrieved from Kaggle. The way I tested the model is to look the the first tweet where the model predicted `disruption` and `potential disruption`, look at the timestamp of that tweet and find out the time difference between that timestamp and the official happening time of the earthquake. Here's what I found:
@@ -89,6 +92,9 @@ I then tested the model on the [Turkey and Syria Earthquake Tweet dataset](https
 3	2023-02-06 01:21:53+00:00	scary earthquake cyprus	                                potential_disruption	0.157591
 4	2023-02-06 01:22:17+00:00	earthquake nicosia right	                        potential_disruption	0.183503
 ````
+
+[Model Testing Source Code](https://github.com/owaikien/predict-crisis-supplychain/blob/main/model_test.ipynb)
+
 <p>Insights:</p>
 
 1. Model Performance: The model performance in predicting disruptions seemed reasonable to me, although the prediction probabilities aren't that high ranges (below 0.50), which implies the model is still quite unsure about its predictions. 
